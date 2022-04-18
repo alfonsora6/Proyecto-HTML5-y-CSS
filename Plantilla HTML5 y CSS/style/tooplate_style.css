@@ -351,3 +351,20 @@ a.follow_us { color: #30aede }
 .text_white {
 	color: white
 }
+
+.videowrapper {
+	position: relative;
+	height:0px;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+   }
+   
+   .videowrapper iframe {
+	position: absolute;
+	left:0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	height: 100%;
+	width: 100%;
+   }
